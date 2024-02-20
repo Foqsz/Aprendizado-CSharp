@@ -6,7 +6,7 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            double month = double.Parse(Console.ReadLine());
+            int month = int.Parse(Console.ReadLine());
 
             string months;
             switch (month)
