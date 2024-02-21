@@ -56,3 +56,6 @@ namespace Course
         }
     }
 }
+
+
+// mais exemplos: https://learn.microsoft.com/en-us/dotnet/api/system.datetime.parseexact?view=net-8.0
