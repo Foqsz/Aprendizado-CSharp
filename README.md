@@ -20,6 +20,6 @@ Neste repositório, você encontrará o meu progresso, experimentos e projetos r
 Sinta-se à vontade para entrar em contato comigo:
 
 - **Email:** [contatovictorvinicius05@gmail.com](mailto:contatovictorvinicius05@gmail.com)
-- **LinkedIn:** [Victor Vinicius Alves de Lima Souza]([https://www.linkedin.com/in/seuperfil/](https://www.linkedin.com/in/victor-vinicius-2a9166255/))
+- **LinkedIn:** [linkedin.com/in/victor-vinicius-2a9166255/](https://www.linkedin.com/in/victor-vinicius-2a9166255/)
 
 Muito obrigado e vamos juntos! 🚀
