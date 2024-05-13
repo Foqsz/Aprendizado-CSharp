@@ -1,0 +1,28 @@
+using Course.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+namespace Course
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            DateTime atual = DateTime.Now;  
+
+            List<VendaJs> listaVendas = new List<VendaJs>();
+
+            VendaJs v1 = new VendaJs(1, "Material de Construção", 25.00M, atual);
+            VendaJs v2 = new VendaJs(2, "Licença de Software", 110.00M, atual);
+            
+            listaVendas.Add(v1);
+            listaVendas.Add(v2);
+
+            string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+            File.WriteAllText("C:\\Users\\vinic\\Documents\\Projetos Estudo\\Course\\Course\\Arquives/vendas.json", serializado);
+
+            Console.WriteLine(serializado);
+        }
+    }
+}
