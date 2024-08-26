@@ -1,0 +1,30 @@
+Console.WriteLine("Digite uma lista de números separados por espaço:");
+string input = Console.ReadLine();
+
+// Divide a string de entrada em um array de strings
+string[] stringArray = input.Split(' ');
+
+// Converte o array de strings em um array de inteiros
+int[] intArray = Array.ConvertAll(stringArray, int.Parse);
+
+// Exibe os valores convertidos
+foreach (var number in intArray)
+{
+    Console.WriteLine(number);
+}
+
+
+###
+
+Console.WriteLine("Digite uma lista de números separados por espaço:");
+var input = Console.ReadLine();
+
+var stringArray = input.Split(' ');
+
+// Converte o array de strings em um array de inteiros usando `var`
+var intArray = Array.ConvertAll(stringArray, int.Parse);
+
+foreach (var number in intArray)
+{
+    Console.WriteLine(number);
+}
